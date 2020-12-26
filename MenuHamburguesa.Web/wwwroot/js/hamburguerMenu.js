@@ -1,6 +1,6 @@
 ﻿
 export default function hamburguerMenu(panelBtn, panel) {
-    alert("hola");
+ 
     const d = document;
     d.addEventListener("click", (e) => {
         if (e.target.matches(panelBtn)) {

@@ -152,5 +152,5 @@ img {
 /*creamos una clase*/
 .panel.is-active {
     transform: translate(0, 0);
-    visibility: visible; /*par que aparesca el menu*/
+    visibility: visible; /*par que aparezca el menu*/
 }
