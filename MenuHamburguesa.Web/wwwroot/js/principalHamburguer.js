@@ -1,6 +1,8 @@
-﻿// Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
-// for details on configuring this project to bundle and minify static web assets.
+﻿import hamburguerMenu from "./hamburguerMenu.js";
+const d = document;
 
-// Write your JavaScript code.
+d.addEventListener("DOMContentLoaded", (e) => {
+    hamburguerMenu(".panel-btn",".panel");
 
-alert("hola");
+});
+
